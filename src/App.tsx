@@ -447,7 +447,7 @@ const Navbar = () => {
 };
 
 const Hero = () => {
-  const [profileImage] = useState("src/photo_2026-02-25 21.04.15.jpeg");
+  const [profileImage] = useState("/profile.jpeg");
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
